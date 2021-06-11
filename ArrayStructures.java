@@ -6,7 +6,7 @@ public class ArrayStructures{
 
 	public void generateRandomArray(){
 		for(int i = 0; i < arraySize; i++){
-			theArray[i] = (int)(Math.random()*10)+10; //genrate numbers bewteen 10 19		
+			theArray[i] = (int)(Math.random()*10)+10;//genrate num bewteen 10 19		
 		}
 	}
 
