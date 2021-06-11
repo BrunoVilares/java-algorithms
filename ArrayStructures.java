@@ -1,3 +1,4 @@
+//Java algorithms tutorial
 public class ArrayStructures{
 
 	private int[] theArray = new int[50];
