@@ -49,6 +49,16 @@ public class ArrayStructures{
 
 	}
 
+	public void insertValue(int value){
+
+		if(arraySize < 50){
+			theArray[arraySize] = value;
+			arraySize++;
+
+		}
+
+	}
+
 	public static void main(String[] args){
 		ArrayStructures newArray = new ArrayStructures();
 		newArray.generateRandomArray();
@@ -57,6 +67,8 @@ public class ArrayStructures{
 		System.out.println("the value is " + newArray.getValueAtIndex(3));
 		System.out.println(newArray.doesArrayContainThisValue(18));
 		newArray.deleteIndex(4);
+		newArray.printArray();
+		newArray.insertValue(55);
 		newArray.printArray();
 	}
 
